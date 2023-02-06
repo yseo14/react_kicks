@@ -28,11 +28,38 @@
   color: #61dafb;
 }
 
+.nav-bar {
+  background: skyblue;
+
+}
+.alert{
+  display: block;
+}
+.main-bg {
+  height: 300px;
+  background-image: url('./img/bg.png');
+  background-position: center;
+  background-size: cover;
+}
+.menu{
+  color: rgb(60, 0, 198);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.start{
+  opacity: 0;
+
+}
+.end{
+  opacity: 1;
+  transition: opacity 0.5s; /*opacity가 변경될 때 0.5초에 걸쳐 변경해주세요*/
+  
 }
